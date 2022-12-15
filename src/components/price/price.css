@@ -1,0 +1,26 @@
+/* Price */
+.cart-product-price {
+  font-weight: 700;
+  font-size: 1.6em;
+  margin: 0;
+}
+
+.product-price {
+  font-weight: 700;
+  font-size: 1.6em;
+}
+
+.product-price {
+  text-align: left;
+}
+
+.price-header {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.price {
+  font-weight: 700;
+}

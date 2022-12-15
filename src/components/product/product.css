@@ -1,0 +1,81 @@
+/* Product */
+.product {
+  border-radius: 0.6em;
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.product:hover {
+  box-shadow: 0px 4px 35px rgba(13, 16, 19, 0.19);
+}
+
+.product:hover .go-shop {
+  opacity: 1;
+}
+
+.image-div {
+  text-align: center;
+}
+
+.Jacket {
+  width: 65% !important;
+}
+
+.product > a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.product-image {
+  width: 100%;
+  border-radius: 0.6em;
+}
+
+.go-shop {
+  border: none;
+  border-radius: 5em;
+  padding: 1em;
+  background-color: #5ece7b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.product-name {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.7em;
+}
+
+.product-name {
+  text-align: left;
+}
+
+.out-of-stock {
+  opacity: 0.6;
+}
+
+.stock-header {
+  color: #72737c;
+  display: none;
+  position: relative;
+  bottom: 7em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin: 0;
+  font-size: 2em;
+}
+
+.out-of-stock-header {
+  display: block;
+}

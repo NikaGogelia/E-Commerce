@@ -1,0 +1,27 @@
+/* Product Attributes */
+.color-attribute {
+  outline: 1px solid #e5e5e5;
+}
+
+.chosen-color-attribute {
+  outline: 2px solid #5ece7b;
+}
+
+.rest-attributes {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.chosen-rest-attributes {
+  background-color: #000;
+  color: #fff;
+}
+
+.can-click {
+  cursor: pointer !important;
+}
+
+.cant-click {
+  cursor: auto !important;
+}
